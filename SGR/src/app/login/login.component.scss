@@ -1,0 +1,117 @@
+
+  
+  // Centrar el formulario y establecer sus dimensiones
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    background-color: #36687c;
+    color: #fff;
+    border: 1px solid #333;
+    box-shadow: 0 8px 16px rgba(199, 16, 16, 0.3);
+    align-items: center;
+    transition: transform 0.4s ease-in-out;
+  }
+
+  .slide-out{
+    transform: translateX(-100%);
+  }
+  
+  // Modifica los estilos del encabezado
+  #heading {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    color: #00bfff;
+    text-align: center;
+  }
+
+  #heading::before,
+  #heading::after {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    left: 0px;
+    background-color: #00bfff;
+}
+
+  #heading::after {
+    animation: pulse 1s linear infinite;
+}
+
+  /* Animación de pulso */
+  @keyframes pulse {
+  from {
+      transform: scale(0.9);
+      opacity: 1;
+  }
+  to {
+      transform: scale(1.8);
+      opacity: 0;
+  }
+}
+
+  
+  // Ajustes para los campos de entrada
+  .field {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #3a3939;
+    color: #fff;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+
+  }
+  .input-field {
+    background-color: #3a3939;
+    color: #fff;
+    width: 100%;
+    padding: 20px 10px 5px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+.input-field::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9em;
+}
+  
+  // Botones ajustados
+  .button1, .button2, .button3 {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    background-color: #487179;
+    transition: background-color 0.4s ease;
+    cursor: pointer;
+  }
+  
+  .button1:hover, .button2:hover {
+    background-color: #487179;
+    color: rgb(243, 240, 240);
+  }
+  
+  .button3:hover {
+    background-color: #00bfff96;
+    color: #fff;
+  }
+
+ 

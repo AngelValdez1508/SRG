@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\flavi\\Documents\\Proyecto Innovador\\SGR_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3D17E21-714F-428C-8DE3-609485FE39FC}|SGR_API\\SGR_API.csproj|c:\\users\\flavi\\documents\\proyecto innovador\\sgr_api\\sgr_api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3D17E21-714F-428C-8DE3-609485FE39FC}|SGR_API\\SGR_API.csproj|solutionrelative:sgr_api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3D17E21-714F-428C-8DE3-609485FE39FC}|SGR_API\\SGR_API.csproj|c:\\users\\flavi\\documents\\proyecto innovador\\sgr_api\\sgr_api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3D17E21-714F-428C-8DE3-609485FE39FC}|SGR_API\\SGR_API.csproj|solutionrelative:sgr_api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3D17E21-714F-428C-8DE3-609485FE39FC}|SGR_API\\SGR_API.csproj|c:\\users\\flavi\\documents\\proyecto innovador\\sgr_api\\sgr_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3D17E21-714F-428C-8DE3-609485FE39FC}|SGR_API\\SGR_API.csproj|solutionrelative:sgr_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3D17E21-714F-428C-8DE3-609485FE39FC}|SGR_API\\SGR_API.csproj|c:\\users\\flavi\\documents\\proyecto innovador\\sgr_api\\sgr_api\\data\\sgrcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3D17E21-714F-428C-8DE3-609485FE39FC}|SGR_API\\SGR_API.csproj|solutionrelative:sgr_api\\data\\sgrcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3D17E21-714F-428C-8DE3-609485FE39FC}|SGR_API\\SGR_API.csproj|c:\\users\\flavi\\documents\\proyecto innovador\\sgr_api\\sgr_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A3D17E21-714F-428C-8DE3-609485FE39FC}|SGR_API\\SGR_API.csproj|solutionrelative:sgr_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\flavi\\Documents\\Proyecto Innovador\\SGR_API\\SGR_API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "SGR_API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\flavi\\Documents\\Proyecto Innovador\\SGR_API\\SGR_API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "SGR_API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T16:47:00.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\flavi\\Documents\\Proyecto Innovador\\SGR_API\\SGR_API\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "SGR_API\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\flavi\\Documents\\Proyecto Innovador\\SGR_API\\SGR_API\\Models\\Usuario.cs",
+              "RelativeToolTip": "SGR_API\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T16:32:04.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\flavi\\Documents\\Proyecto Innovador\\SGR_API\\SGR_API\\Program.cs",
+              "RelativeDocumentMoniker": "SGR_API\\Program.cs",
+              "ToolTip": "C:\\Users\\flavi\\Documents\\Proyecto Innovador\\SGR_API\\SGR_API\\Program.cs",
+              "RelativeToolTip": "SGR_API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T16:38:25.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SGRContext.cs",
+              "DocumentMoniker": "C:\\Users\\flavi\\Documents\\Proyecto Innovador\\SGR_API\\SGR_API\\Data\\SGRContext.cs",
+              "RelativeDocumentMoniker": "SGR_API\\Data\\SGRContext.cs",
+              "ToolTip": "C:\\Users\\flavi\\Documents\\Proyecto Innovador\\SGR_API\\SGR_API\\Data\\SGRContext.cs",
+              "RelativeToolTip": "SGR_API\\Data\\SGRContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T16:39:46.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\flavi\\Documents\\Proyecto Innovador\\SGR_API\\SGR_API\\appsettings.json",
+              "RelativeDocumentMoniker": "SGR_API\\appsettings.json",
+              "ToolTip": "C:\\Users\\flavi\\Documents\\Proyecto Innovador\\SGR_API\\SGR_API\\appsettings.json",
+              "RelativeToolTip": "SGR_API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-28T16:27:53.588Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

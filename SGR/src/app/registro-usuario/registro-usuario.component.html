@@ -1,0 +1,31 @@
+<div class="rusuario">
+    <form (ngSubmit)="onSubmit()" class="form">
+        <p class="title">!Haz tu Registro!</p>
+        <p class="message">Registrate para tener acceso a la app</p>
+            <div class="flex">
+            <label>
+                <input class="input" type="text" placeholder=""  id="registroNombre" [(ngModel)] = "registroData.NombreUsuario" name="registroname" required="">
+                <span>Usuario</span>
+            </label>
+    
+            
+        </div>  
+                
+        <label>
+            <input class="input" type="email" placeholder=""  id="registroEmail" [(ngModel)] = "registroData.Email" name="registroemail" required="">
+            <span>Email</span>
+        </label> 
+            
+        <label>
+            <input class="input" type="password" placeholder=""  id="registroPassword" [(ngModel)] = "registroData.Password" name="registropassword" required="">
+            <span>Password</span>
+        </label>
+        <label>
+            <input class="input" type="password" placeholder=""  id="confirmarPassword" [(ngModel)] = "registroData.confirmarPassword" name="confirmarpassword" required=""> 
+            <span>Confirm password</span>
+        </label>
+        <p *ngIf="registroError" class="errorMessage">{{ registroError }}</p>
+        <button class="submit" type="submit">Registrar</button>
+        <p class="signin">Ya tienes una cuenta? <a href="/login">Inicia Sesion</a> </p>
+    </form>
+</div>
