@@ -1,49 +1,30 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-body {
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    text-align: center;
-}
-.container {
-    width: 100%;
-    max-width: 900px;
-    margin-top: -30px;
-}
-h1 {
-    font-size: 30px;
-    letter-spacing: 2px;
-    white-space: nowrap;
-}
-p { margin-bottom: 20px; }
-button {
-    background-color: #555555;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 14px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-button:hover { background-color: #333333; }
-</style>
-<title>Sistema Gestor de Referencias</title>
-</head>
-<body>
-<div class="container">
-    <h1>Bienvenido al sistema Gestor de Referencias</h1>
-    <p>Se ha iniciado sesión correctamente</p>
-    <button (click)="logout()">Cerrar Sesión</button>
-</div>
-</body>
-</html>
+<div class="main-container">
+    <div class="sidebar">
+      <button class="btn-agregar">+ Agregar</button>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Subir PDF</a></li>
+        <li><a href="#">Mis referencias</a></li>
+        <li><a href="#">Destacados</a></li>
+        <li><a href="#">Temas</a></li>
+        <li><a href="#">Lenguaje</a></li>
+      </ul>
+    </div>
+    <div class="contenido">
+      <header class="header">
+        <h1 class="titulo">Gestión de Referencias</h1>
+        <div class="search-bar">
+          <input type="text" placeholder="Buscar..." />
+        </div>
+        <button class="account-btn">Cuenta</button>
+      </header>
+      <h1>Bienvenido &lt;Nombre&gt;</h1>
+      <div class="button-grid">
+        <button class="grid-button">Subir PDF</button>
+        <button class="grid-button">Referencias</button>
+        <button class="grid-button">Exportar</button>
+        <button class="grid-button">Destacados</button>
+      </div>
+    </div>
+  </div>
+  
